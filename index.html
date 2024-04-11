@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <!-- link css file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- timer count container -->
+    <div class="timerContainer">
+        <span class = "text" id="hour">00</span>
+        <span class = "time">Hr</span>
+        <span class = "text" id="min">00</span>
+        <span class = "time">Min</span>
+        <span class = "text" id="sec">00</span>
+        <span class = "time" >Sec</span>
+        <span class = "text" id ="count">00</span>
+    </div>
+    <!-- statrt,stop,reset button container -->
+    <div class="buttonContainer">
+        <button type="button" class="start button" onclick="start()">Start</button>
+        <button type="button" class="stop button" onclick="stop()">Stop</button>
+        <button type="button" class="reset button" onclick="reset()">Reset</button>
+    </div>
+    <!-- link js file -->
+ <script src="script.js"></script>   
+</body>
+</html>

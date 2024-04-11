@@ -1,0 +1,41 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* timer counting text */
+.timerContainer .text{
+    font-size: 80px;
+    font-weight: bold;
+}
+/* hours min sec text  */
+.timerContainer .time{
+    font-size: 50px;
+    font-weight: bold;
+    vertical-align: text-bottom;
+}
+/* button container */
+.buttonContainer .button{
+    padding:5px 20px;
+    border-radius: 5px;
+    margin:20px 15px;
+    font-size: large;
+    color: white;
+    border: 1px solid white;
+    letter-spacing: 2px;
+
+}
+/* start button */
+.buttonContainer .start{
+    background-color: deeppink;
+}
+/* stop button */
+.buttonContainer .stop{
+    background-color: rgb(11, 244, 244);
+}
+/* reset button */ 
+.buttonContainer .reset{
+    background-color: fuchsia;
+}
